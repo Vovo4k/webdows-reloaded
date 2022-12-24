@@ -29,7 +29,7 @@ new explorer.window()
 	.attr('style', 'float:right;margin-right:5px;')
 	.click({win: this}, function(e) {
 		var win = e.data.win;
-		if(theme !== 'webdows') {
+		if(theme !== 'aero') {
 			color = '';
 		} else {
 			var c = win.body.find('input[type=color]').val();

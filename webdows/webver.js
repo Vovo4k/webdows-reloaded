@@ -70,6 +70,9 @@ new explorer.window()
 			}, {
 				title:'Other Licenses',
 				location: './otherlicenses.txt'
+			},{
+				title:'About This Project',
+				location: './about.txt'
 			}
 		];
 		if(xhr !== null) {

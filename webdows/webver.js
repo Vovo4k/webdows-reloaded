@@ -9,7 +9,7 @@ new explorer.window()
 .resize(450, 400)
 .center()
 .controls([])
-.title('About Webdows')
+.title('About Webdows Reloaded')
 .icon('webdows/resources/icons/info.ico')
 .callback(function() {
 	var win = this;
